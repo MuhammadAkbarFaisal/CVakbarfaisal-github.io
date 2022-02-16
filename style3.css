@@ -1,0 +1,73 @@
+body {
+    background-color : black;
+    background-image: url("bgmap.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 56% 51%;
+
+}
+
+h1 {
+    text-align: center;
+    font-family: "Calibri";
+    color: white;
+    background-color: rgba(255, 99, 71, 0.8);
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    background-color: rgba(255, 99, 71, 0.6);
+}
+
+h3 {
+    text-align: center;
+    color: white;
+    background-color: rgba(255, 99, 71, 0.6);
+}
+
+p {
+    font-size: 12pt;
+    line-height: 150%;
+    padding: 10px;
+    background-color: rgba(242, 242, 242, 0.8);
+    width: 650px;
+    text-align: center;
+    margin: auto;
+}
+
+
+.menu {
+    text-align: center;
+    background-color: #8B0000;
+    font-family: "Calibri";
+    font-size: 18px;
+    padding-top: 15pt;
+}
+
+.button {
+    background-color: #e5e5e5;
+    padding: 10px;
+    border-color: black;
+    transition-duration: 0.4s ;
+}
+
+.button:hover {
+    background-color: #bababa;
+}
+
+.a { 
+	text-decoration: none;
+	color: rgb(253, 251, 251);
+	background-color: #CD5C5C;
+	font-family: arial;
+	font-weight: bold;
+	border: 1px solid rgb(246, 244, 244);
+	line-height: 50px;
+	margin: auto;
+	padding: 15px;
+	border-radius: 5px;
+}
+	.a:hover
+	{ background-color: rgb(151, 182, 178)}
+	
